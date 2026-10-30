@@ -12,6 +12,10 @@ Quick Time Events pass on their own, and you never see them.
 - QTE graphics, sounds and captions ("GET READY!", "GREAT!", "LUCKY!", "FAILED!") are hidden.
 - Normal action prompts and dialog choices still work as usual.
 
+## Video
+
+[![Showcase video: The Storm, original vs with mod](images/video_thumbnail.jpg)](https://www.youtube.com/channel/UCi8_QM5Hk-OLSynUfwDo76g)
+
 ## Download
 
 Get the zip from the [latest release](../../releases/latest).
