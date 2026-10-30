@@ -51,6 +51,10 @@ positive. `patch.ps1` is a plain-text script you can read before running: it cha
 bytes in `FahrenheitSub.exe` (every change is listed at the top of the script) and refuses
 to write anything if your files don't match the expected version.
 
+If Windows shows a blue "Windows protected your PC" box when you run `Install.bat`, click
+**More info → Run anyway**. Or, before extracting, right-click the zip → **Properties** →
+tick **Unblock** → OK.
+
 ## Screenshots
 
 | | |
@@ -68,5 +72,11 @@ Found a problem? Open an [issue](../../issues).
 
 To mah boy Claude Opus 5.5 (Anthropic) for helping with reverse engineering and patch scripts.
 
+## License
+
+The patch scripts (`patch.ps1`, `Install.bat`, `Uninstall.bat`) are released under the
+[MIT License](LICENSE).
+
 Not affiliated with Quantic Dream, Aspyr or the game's publishers. No game files are
-included in this repository.
+included in this repository. Fahrenheit: Indigo Prophecy Remastered and its assets are
+the property of their respective owners.
