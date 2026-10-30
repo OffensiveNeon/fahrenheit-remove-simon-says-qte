@@ -32,6 +32,13 @@ The original exe is also backed up the first time you install.
 
 Double-click `Uninstall.bat` to uninstall the mod.
 
+### If something goes wrong
+
+The mod only changes `FahrenheitSub.exe` and some caption text in `BigFile_PC.d02`. It
+doesn't touch your saves. If the game won't start or acts strange, run `Uninstall.bat`.
+If that doesn't help, Steam can always restore the original files: right-click the game →
+**Properties → Installed Files → Verify integrity of game files**.
+
 ## Known limits (beta)
 
 - Tested in Reconstruction, Lost Love and The Storm. Let me know if another chapter has problems.
