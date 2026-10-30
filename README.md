@@ -1,8 +1,8 @@
-# Fahrenheit: Indigo Prophecy Remastered — Remove Simon Says QTE (Auto-Pass)
+﻿# Fahrenheit: Indigo Prophecy Remastered â€” Remove Simon Says QTE (Auto-Pass)
 
 ![Before and after](images/header.jpg)
 
-**Version 0.1.1 (beta)** · by NeonGamingMods
+**Version 0.1.1 (beta)** Â· by NeonGamingMods
 
 Quick Time Events pass on their own, and you never see them.
 
@@ -14,7 +14,7 @@ Quick Time Events pass on their own, and you never see them.
 
 ## Video
 
-[![Showcase video: The Storm, original vs with mod](images/video_thumbnail.jpg)](https://www.youtube.com/channel/UCi8_QM5Hk-OLSynUfwDo76g)
+[![Showcase video: The Storm, original vs with mod](images/video_thumbnail.jpg)](https://www.youtube.com/watch?v=IjsLjBWAYjw)
 
 ## Download
 
