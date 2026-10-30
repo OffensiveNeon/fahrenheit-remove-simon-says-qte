@@ -4,6 +4,8 @@
 
 **Version 0.1.1 (beta)** · by NeonGamingMods
 
+## Description
+
 Quick Time Events pass on their own, and you never see them.
 
 - Simon Says QTEs (the colored direction prompts) pass automatically. This covers both
@@ -20,51 +22,34 @@ Quick Time Events pass on their own, and you never see them.
 
 Get the zip from the [latest release](../../releases/latest).
 
-## Install
+## Installation
 
-1. Close the game.
-2. In Steam: right-click the game > Manage > Browse local files.
-3. Copy the files from the zip into that folder and double-click `Install.bat`.
+1. Extract the zip files to the game folder.
+2. Double-click `Install.bat`.
+3. That is all. Play.
 
-Your original exe is backed up the first time you install.
+The original exe is also backed up the first time you install.
 
-## Uninstall
-
-Double-click `Uninstall.bat`, or use Steam's "Verify integrity of game files".
-
-## After a Steam update or Verify integrity
-
-Run `Install.bat` again. If an update changes the game, the patcher won't touch it.
+Double-click `Uninstall.bat` to uninstall the mod.
 
 ## Known limits (beta)
 
-- Tested in Reconstruction, Lost Love and The Storm.
+- Tested in Reconstruction, Lost Love and The Storm. Let me know if another chapter has problems.
 - Meter mini-games (alternating two keys) still have to be played.
 - Mood bars and lives counter still show.
-- Captions are only hidden in English.
-
-This is a beta. Future versions may cover more QTE elements.
+- In non-English languages, the "GET READY!" / "GREAT!" / "FAILED!" text may still appear
+  (auto-pass still works).
 
 ## Requirements
 
 Steam version of the game. Nothing else to install.
 
-## How it works / antivirus warnings
+## Antivirus warnings
 
-`patch.ps1` is a plain-text PowerShell script you can read before running. It changes a
-few bytes in `FahrenheitSub.exe` (the list of every offset and its original and new
-bytes is at the top of the script) and blanks the four QTE captions in
-`BigFile_PC.d02`. It refuses to write anything if the files don't match the expected
-version. `Install.bat` and `Uninstall.bat` only run that script.
-
-Some antivirus tools and browsers flag batch files that start PowerShell. That is a
-false positive; the scripts are short enough to check yourself.
-
-Check which patches are applied (PowerShell, in the game folder):
-
-```
-powershell -ExecutionPolicy Bypass -File patch.ps1 -Action Status
-```
+Some antivirus tools and browsers flag batch files that start PowerShell. That's a false
+positive. `patch.ps1` is a plain-text script you can read before running: it changes a few
+bytes in `FahrenheitSub.exe` (every change is listed at the top of the script) and refuses
+to write anything if your files don't match the expected version.
 
 ## Screenshots
 
@@ -77,11 +62,11 @@ powershell -ExecutionPolicy Bypass -File patch.ps1 -Action Status
 
 ## Support
 
-Open an [issue](../../issues) for bug reports or questions.
+Found a problem? Open an [issue](../../issues).
 
-## Credits
+## Shout outs
 
-NeonGamingMods. Made with help from Claude Opus 5.5 (Anthropic).
+To mah boy Claude Opus 5.5 (Anthropic) for helping with reverse engineering and patch scripts.
 
 Not affiliated with Quantic Dream, Aspyr or the game's publishers. No game files are
 included in this repository.
