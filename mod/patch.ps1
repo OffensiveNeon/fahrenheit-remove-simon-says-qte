@@ -43,6 +43,7 @@ $ExeSites = @(
     (Site 0x00305E1E 'e8ed6de6ff' '83c4089090' 'hide QTE HUD: MULTI_CHOOSE_ACTION 0x705CE0')
     (Site 0x0028EA83 '75' 'eb' 'hide Simon circles')
     (Site 0x0028F388 '44' '4c' 'hide Simon prompt display')
+    (Site 0x0028F4F0 '83ec34' '33c0c3' 'CHOOSE missed-arrow count always 0')
 )
 
 # QTE captions in the English text table (two copies), blanked with same-length spaces.

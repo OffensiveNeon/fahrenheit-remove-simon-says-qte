@@ -1,5 +1,5 @@
 Fahrenheit: Indigo Prophecy Remastered - Remove Simon Says QTE (Auto-Pass)
-by NeonGamingMods                                    version 0.1.1 (beta)
+by NeonGamingMods                                    version 0.1.2 (beta)
 
 WHAT IT DOES
   Quick Time Events pass on their own, and you never see them.
@@ -26,7 +26,7 @@ AFTER A STEAM UPDATE OR VERIFY INTEGRITY
   won't touch it.
 
 KNOWN LIMITS (beta)
-  - Tested in Reconstruction, Lost Love and The Storm.
+  - Tested in Reconstruction, Lost Love, The Storm and The Fugitive.
   - Meter mini-games (alternating two keys) still have to be played.
   - Mood bars and lives counter still show.
   - Captions are only hidden in English.

@@ -2,7 +2,7 @@
 
 ![Before and after](images/header.jpg)
 
-**Version 0.1.1 (beta)** · by NeonGamingMods
+**Version 0.1.2 (beta)** · by NeonGamingMods
 
 ## Description
 
@@ -41,7 +41,7 @@ If that doesn't help, Steam can always restore the original files: right-click t
 
 ## Known limits (beta)
 
-- Tested in Reconstruction, Lost Love and The Storm. Let me know if another chapter has problems.
+- Tested in Reconstruction, Lost Love, The Storm and The Fugitive. Let me know if another chapter has problems.
 - Meter mini-games (alternating two keys) still have to be played.
 - Mood bars and lives counter still show.
 - In non-English languages, the "GET READY!" / "GREAT!" / "FAILED!" text may still appear
